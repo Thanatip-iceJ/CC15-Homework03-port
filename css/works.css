@@ -1,0 +1,121 @@
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    position: absolute;
+    right: 15%;
+    top: 2%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    line-height: 1.4rem
+}
+
+
+.ctn {
+    width: 1024px;
+    margin: 0 auto;
+    /* background: lightgrey; */
+}
+
+hr {
+    width: 80%;
+    border: none;
+    height: 1px;
+    background: white;
+    margin: 0 auto;
+}
+
+footer {
+    height: 120px;
+    /* background-color: grey; */
+    margin: 0 auto;
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.footer-box {
+    display: flex;
+    width: 100%;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.footer-box i {
+    font-size: 30px;
+    margin-bottom: 1rem;
+}
+
+footer p {
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.features {
+    /* padding-top: 2rem; */
+    padding-bottom: 2rem; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title {
+    margin-top: 140px;
+    
+}
+.left-hori {
+    flex: 1;
+}
+
+.hori-box {
+    display: flex;
+    background-color: #212121;
+    border-radius: 8px;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.left-hori img {
+    width: 246px;
+    height: 180px;
+    border-radius: 8px;
+}
+
+.right-hori {
+    flex: 4;
+    padding-top: 1.5rem;
+}
+
+.right-hori h2 {
+    margin-bottom: 1rem;
+}
+
+.right-hori h5 {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    background-color: #142850;
+    border-radius: 16px;
+    padding: 6px;
+    margin-right: 1rem;
+}
+
+
+.hori-box:hover {
+    /* border: 2px solid black;
+    border-radius: 16px;
+    cursor: pointer;
+    transition: .3s; */
+    transform: scale(1.05);
+    cursor: pointer;
+    transition: .3s;
+
+}
+

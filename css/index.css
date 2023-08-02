@@ -1,0 +1,259 @@
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    position: absolute;
+    right: 15%;
+    top: 2%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.ctn {
+    width: 1024px;
+    margin: 0 auto;
+    /* background: lightgrey; */
+}
+
+.intro {
+    display: flex;
+    flex-direction: row;
+    margin-top: 140px;
+    margin-bottom: 70px ;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    /* outline: 2px dashed black; */
+}
+
+.right {
+    display: flex;
+    flex: 1.5;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 44px;
+}
+
+button {
+    width: 208px;
+    height: 48px;
+    background-color: rgb(248, 102, 86);
+    color: white;
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    color: rgb(248, 102, 86);
+    background-color: #3d3d3d;
+    border: solid rgb(248, 102, 86);
+    transition: all .3s ease;
+}
+
+p {
+    line-height: 1.4rem
+}
+
+.left h1:nth-child(2) {
+    margin-bottom: 40px;
+}
+
+.left p {
+    margin-bottom: 40px;
+    text-align: justify;
+}
+
+.right img {
+    width: 15rem;
+    border-radius: 50%;
+    box-shadow: 3px 5px 8px -1px rgba(143,186,182,0.75);
+    -webkit-box-shadow: 3px 5px 8px -1px rgba(143,186,182,0.75);
+    -moz-box-shadow: 3px 5px 8px -1px rgba(143,186,182,0.75);    
+    border: 1px darkgrey solid;
+    /* margin-bottom: 5rem; */
+    margin-top: -5rem;
+}
+
+.posts {
+    background-color: #212121;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.flex-box {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.box1 {
+    background-color: #3d3d3d;
+    border-radius: 8px;
+    padding: 2rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    box-shadow: 3px 5px 8px -1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 3px 5px 8px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 5px 8px -1px rgba(0,0,0,0.75);
+}
+
+.box1 h2 {
+    font-size: 26px;
+    margin-bottom: 2rem;
+}
+
+.box1 h5 {
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 2rem;
+}
+.box2 h5 {
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 2rem;
+}
+
+.box2 {
+    background-color: #3D3D3D;
+    border-radius: 8px;
+    padding: 2rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    box-shadow: 3px 5px 8px -1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 3px 5px 8px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 5px 8px -1px rgba(0,0,0,0.75);
+}
+
+.box2 h2 {
+    font-size: 26px;
+    margin-bottom: 2rem;
+}
+
+.view-all {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 300;
+    /* color: blue; */
+    position: relative;
+    left: 85%;
+}
+
+.features {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.left-hori {
+    flex: 1;
+}
+
+.hori-box {
+    display: flex;
+    background-color: #212121;
+    border-radius: 8px;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.left-hori img {
+    width: 246px;
+    height: 180px;
+    border-radius: 8px;
+}
+
+.right-hori {
+    flex: 4;
+    padding-top: 1.5rem;
+}
+
+.right-hori h2 {
+    margin-bottom: 1rem;
+}
+
+.right-hori h5 {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    background-color: #142850;
+    border-radius: 16px;
+    padding: 6px;
+    margin-right: 1rem;
+}
+
+hr {
+    margin: auto;
+    margin-bottom: 2rem;
+    width: 80%;
+    border: none;
+    height: 1px;
+    background: white;
+}
+
+.hori-box:hover {
+    /* border: 2px solid black;
+    border-radius: 16px;
+    cursor: pointer;
+    transition: .3s; */
+    transform: scale(1.05);
+    cursor: pointer;
+    transition: all .3s ease;
+
+}
+
+.box1:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.box2:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    transition: all .3s ease;
+
+}
+
+footer {
+    height: 120px;
+    /* background-color: grey; */
+    margin: 0 auto;
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.footer-box {
+    display: flex;
+    width: 100%;
+    gap: 2rem;
+}
+
+.footer-box i {
+    font-size: 30px;
+    margin-bottom: 1rem;
+}
+
+footer p {
+    font-size: 12px;
+    font-weight: 300;
+}
